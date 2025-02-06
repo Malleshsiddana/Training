@@ -1,0 +1,23 @@
+package com.tables;
+
+public class LearnVariable {
+
+	public static void main(String[] args) {
+		int x =5;
+		x = 7;
+		System.out.println(x);
+		
+		int y;//Declared
+		y=24;
+		//y="Mallesh";
+		//String 45 = "Mallesh";
+		System.out.println(x + 5);
+		
+		String name = "Mallesh";
+		
+		System.out.println(name + 7);
+		//System.out.println(name - 7);
+		
+  
+
+}}

@@ -1,0 +1,69 @@
+package com.tables;
+
+public class ConditionalStatement {
+	
+	public static void main(String[] args) { 
+		
+		/**
+		 * Nested Conditionals
+		 */
+		
+		
+		boolean isAgreed = true;
+		 
+		if(isAgreed) {
+			boolean readyForDinner = true;
+			if(readyForDinner) {
+				System.out.println("Going on dinner");
+			}else {
+				System.out.println("going for coffee");
+			}
+		}else {
+			boolean areFriendsReady = true;
+			if(areFriendsReady){
+				System.out.println("party with friends");
+			}else {
+				System.out.println("will sleep tonight");
+			}
+				
+			}
+		}
+		/**
+		int favTemp = 25;
+		int currTemp = 47;
+		String opinion;
+		
+		if (currTemp < favTemp -5) {
+			opinion ="Its little cold";
+		}else if (currTemp < favTemp -10) {
+			opinion = "Its very cold";
+		}else if (currTemp < favTemp -20) {
+			opinion ="its freezing cold";
+		}else if (currTemp <favTemp) {
+			opinion ="its the best climate";
+			
+		}else {
+			opinion = "its hot";
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		/**
+		boolean sheAgreed = false;
+		
+		if (sheAgreed) {
+			System.out.println("Yay, iam going on a date");
+			}else {
+				System.out.println("keep swping right");
+			}
+		    System.out.println("Out of conditionls");**/
+		    
+		
+	}
+
+

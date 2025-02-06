@@ -1,0 +1,32 @@
+package com.tables;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		
+		int num = 100000000 ;
+		 
+		int num2 = -10000000 ;
+		
+		long bignum = 10000000000000L ;
+		short short_num = 12300 ;
+		
+		byte b_num = 123 ;
+		
+		float num1 = 123.4f ;
+		
+		double num3 = 123.4 ;
+		float fNum = 1234567889.123456789f;
+		double dNum = 123456789.123456789 ;
+		
+		System.out.println(fNum);
+		System.out.println(dNum);
+		
+		
+		char flag = 'a';
+		boolean isTrue = true; //false
+		
+		
+	}
+
+}
