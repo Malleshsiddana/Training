@@ -1,0 +1,8 @@
+package com.Mallesh;
+
+public class ClassThree {
+	public static  void helloFromMallesh() {
+		System.out.println("Hello from Mallesh");
+	}
+
+}

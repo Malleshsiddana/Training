@@ -1,0 +1,34 @@
+package com.tables;
+
+public class SwitchClass {
+
+	public static void main(String[] args) {
+		//1-> jan, 2->Feb
+		
+		int month = 6;
+		String month_str =" ";
+		
+		switch(month) {
+		
+		case 1 : month_str ="january";
+		break;
+		
+		case 2 : month_str ="February";
+		break;
+		
+		case 3 : month_str ="March";
+		break;
+		
+		case 4 : month_str ="April";
+		break;
+		
+		default:
+		System.out.println(" This is not a valid accepted month num");
+		
+		
+		}
+		System.out.println(month_str);
+	}
+				
+
+}

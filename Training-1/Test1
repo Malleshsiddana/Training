@@ -1,0 +1,13 @@
+package methods;
+
+import com.Mallesh.ClassThree;
+
+public class Class2 {
+
+	public static void main(String[] args) {
+		Class1.hello();
+		ClassThree.helloFromMallesh();
+		
+	}
+
+}

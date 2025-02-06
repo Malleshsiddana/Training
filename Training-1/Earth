@@ -1,0 +1,31 @@
+package methods;
+
+public class Earth {
+
+	public static void main(String[] args) {
+		person  Mallesh = new person("Mallesh",99,5.11f);
+		person shivani = new person("shivani",99,5.11f);
+		Mallesh.speak();
+		shivani.speak();
+		
+		/**
+		person per;
+		
+		per =new person();
+		per.name = "Mallesh";
+		per.age =99;
+		//per.height =6.0f;
+		
+		per.speak();**/
+			
+		//person p1 = new person();
+		//person p2 = new person();
+		//person p3 = new person();
+		
+		//p1.speak();
+		//p2.speak();
+		//p3.speak();
+		
+	}
+
+}

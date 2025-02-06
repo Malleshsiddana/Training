@@ -1,0 +1,19 @@
+package methods;
+
+public class ClassA {
+	
+		public static String name = "ClassA";
+			public static void methodA() {
+				
+				System.out.println("Hello from method A");
+				System.out.println(name);
+		}
+			public static void main(String[] args) {
+				methodA();
+			}
+		
+	{
+		
+	}
+
+}

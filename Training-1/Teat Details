@@ -1,0 +1,21 @@
+package methods;
+
+public class Student {
+  
+	String name;
+	int age;
+	
+	public Student () {
+	}
+	public Student (String name ) {
+		this.name=name;
+	}
+	public Student (String name, int age) {
+		this.name=name;
+		this.age=age;
+	}
+	public Student ( int age,String name) {
+		this.age=age;
+		this.name=name;
+	}
+}

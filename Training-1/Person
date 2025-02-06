@@ -1,0 +1,36 @@
+package methods;
+
+public class person {
+
+	String name ;
+	int age;
+	float height;
+	
+	public person(String name, int age, float height) {
+		this.name = name;
+		this.age = age;
+		this.height = height;
+	
+		
+		/**initialize the state
+		name ="Mallesh";
+		age =99;
+		height = 5.11f;
+		**/
+		
+		 
+	}
+	
+	public void speak() {
+		System.out.println("My name is :"+name);
+		System.err.println("my age is :"+ age);
+		System.out.println("My height is :"+height);
+
+	}
+	public void eat() {
+		System.out.println("I am eating");
+		}
+	public void dance() {
+		System.out.println("I am dancing");
+	}
+	}
