@@ -1,0 +1,58 @@
+package Assigment;
+
+ class Bank {      
+	       //Private attributes for encapsulation
+	private String accountNumber;
+	private double balence;
+	private String accountHolderName;
+	
+	//Getter method for account number
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+	//setter method account number
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public double getBalence() {
+		return balence;
+	}
+	//setter method for balance with validation
+	public void setBalence(double balance) {
+		if(balance>=0) {
+		this.balence = balance;
+	}
+		else {
+			System.out.println("balance cannot ne negitivity");
+		}
+		}
+	public String getAccountHolderName() {
+		return accountHolderName;
+	}
+	public void setAccountHolderName(String accountHolderName) {
+		this.accountHolderName = accountHolderName;
+	}
+
+} 
+       //Main class to demonstrate encapsulation
+ public class BankAccountTest{
+	 public static void main(String[] args) {
+		 //creating an object of BankAccount
+		Bank account = new Bank();
+		
+		           //setting values using setter methods
+		account.setAccountNumber("235699383");
+		account.setBalence(500000.86);
+		account.setAccountHolderName("Siddana Mallesh");
+	
+		//Retriving and displaying values getter methods
+		System.out.println("AccountNumber:"+ account.getAccountNumber());
+		System.out.println("AccountHolderName:" + account.getAccountHolderName());
+		System.out.println("Balence: $ " + account.getBalence());
+	}
+ }
+
+
+
+
+

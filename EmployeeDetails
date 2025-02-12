@@ -1,0 +1,51 @@
+package Assigment;
+
+ class Employee{
+	
+	String name;
+	Double salary;
+	     //Constructor to initialize employee attributes
+	Employee(String name,double salary){
+		this.name = name;
+		this.salary = salary;
+	}
+	 void work() {
+		 System.out.println(name + " is Working");		 
+	 }
+}
+ 
+ //Subclass representing a manager,inheriting from employee
+ class Manager extends Employee {
+	 
+	 //Constructor to initialize manager attributes using superclass constructor
+	 Manager(String name,double salary){
+		 super(name,salary);	 
+	 }
+	 
+	   //Overriding the work method to specific manager's role
+	 @Override
+	 void work() {
+		 System.out.println(name+ " is managing the team.");	  
+		 }
+	 
+	 //Additional method specific to manager
+	 void manageTeam() {
+		 System.out.println(name+ " is manageing the teem meeting.");
+	 }	 
+ }
+ 
+ public class EmployeeDetails{
+	 public static void main(String[] args) {
+		 
+		     //Creating an employee object 
+		Employee emp = new Employee("Ganesh",50000);
+		Manager mgr = new Manager("Dinesh",805000);
+		
+		//Calling methods on employee object
+		emp.work();
+		//Calling methods on manager object
+		mgr.work();
+		mgr.manageTeam();
+				
+	}
+ }

@@ -1,0 +1,39 @@
+package Assigment;
+
+abstract class Animal {
+	    //abstract method to be implemented by subclasses
+	abstract void makeSound();
+ }
+
+       //Subclass dog implementing makeSound method
+ class Dog extends Animal{
+	 @Override
+	 void makeSound() {
+		 System.out.println("Bow!..Bow..");
+	 }
+ }
+ 
+     //Subclass dog implementing makeSound method
+ class Cat extends Animal{
+	 @Override
+	 void makeSound(){
+		 System.out.println("Meow!..Meow!");	  
+	 }
+ }
+         //Main class to demonstrate polymorphisam
+ public class AnimalSoundClass{
+	 public static void main(String[] args) {
+		            //Creating objects of dog and cat using animal reference
+		 Animal myDog = new Dog();
+		 Animal myCat = new Cat();
+		 
+		 //Calling makSound method demonstrating polymorphism
+		 
+		 myDog.makeSound();
+		 myCat.makeSound();
+		 
+	
+	}	 
+ }
+ 
+
